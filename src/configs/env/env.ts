@@ -9,7 +9,6 @@ function requireEnv(env: unknown) {
 }
 
 const env = {
-  baseURL: requireEnv(process.env.NEXT_PUBLIC_BASE_URL),
   openAiKey: requireEnv(process.env.NEXT_PUBLIC_OPEN_AI_API_KEY),
 }
 
