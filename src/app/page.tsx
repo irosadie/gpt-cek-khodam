@@ -1,7 +1,7 @@
 "use client";
 import { OpenAI } from "openai-streams";
-import { useEffect, useState } from "react";
-import { env } from "../../configs/env";
+import { useState } from "react";
+import { env } from "$/configs/env";
 
 export default function Home() {
   const [response, setResponse] = useState("");
