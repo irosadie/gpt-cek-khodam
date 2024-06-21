@@ -56,7 +56,7 @@ export default function Home() {
             <input
               onChange={(e) => setName(e.target.value)}
               value={name}
-              className="h-10 py-0.5 border border-gray-400 rounded w-full px-4 uppercase"
+              className="h-10 py-0.5 border border-gray-400 rounded w-full px-4 uppercase text-black"
             />
           </div>
           <div className="flex gap-4 justify-end">
@@ -78,7 +78,7 @@ export default function Home() {
           <div className="pt-4">
             <div className="w-max-full relative">
               <div className="absolute rounded-full px-2 py-0.5 bg-slate-400 text-white -top-1.5 text-xs left-3">Hasil Qodam dari Nama Kamu</div>
-              <div className="bg-gray-50 mt-4 p-4 max-h-[420px] overflow-y-auto border border-gray-400 rounded px-4 py-8 text-sm">
+              <div className="bg-gray-50 mt-4 p-4 max-h-[420px] overflow-y-auto border border-gray-400 rounded px-4 py-8 text-sm text-black">
                 {response || 'Masukan nama dulu, lalu "Kirim"'}
               </div>
             </div>
